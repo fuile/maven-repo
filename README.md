@@ -21,5 +21,11 @@ maven repository
             <artifactId>cmsen-springboot-common</artifactId>
             <version>1.0.0</version>
         </dependency>
+        
+        <dependency>
+            <groupId>com.cmsenframework.springboot</groupId>
+            <artifactId>cmsen-springboot-quartz</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 ```
