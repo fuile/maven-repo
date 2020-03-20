@@ -14,7 +14,7 @@
     <groupId>com.cmsenframework.springboot</groupId>
     <artifactId>cmsen-springboot-common</artifactId>
     <version>1.0.0</version>
-    <name>CmsEn Framework</name>
+    <name>springboot-common</name>
     <url>https://github.com/fuile/maven-repo</url>
     <description>CmSen Springboot Common</description>
 
@@ -32,12 +32,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
-            <version>2.1.5.RELEASE</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-quartz</artifactId>
             <version>2.1.5.RELEASE</version>
         </dependency>
 
