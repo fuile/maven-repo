@@ -33,14 +33,14 @@
                 <configuration>
                     <message>Maven artifacts for ${project.version}</message>
                     <noJekyll>true</noJekyll>
-                    <outputDirectory>${project.build.directory}/maven-repo</outputDirectory><!--本地jar地址-->
-                    <branch>refs/heads/master</branch><!--分支的名称-->
+                    <outputDirectory>${project.build.directory}/maven-repo</outputDirectory>
+                    <branch>refs/heads/master</branch>
                     <merge>true</merge>
                     <includes>
                         <include>**/*</include>
                     </includes>
-                    <repositoryName>maven-repo</repositoryName><!--对应github上创建的仓库名称 name-->
-                    <repositoryOwner>fuile</repositoryOwner><!--github 仓库所有者即登录用户名-->
+                    <repositoryName>maven-repo</repositoryName>
+                    <repositoryOwner>fuile</repositoryOwner>
                 </configuration>
                 <executions>
                     <execution>
