@@ -15,7 +15,7 @@
     <artifactId>cmsen-springboot-common</artifactId>
     <version>1.0.1</version>
     <name>springboot-common</name>
-    <url>https://github.com/fuile/maven-repo</url>
+    <url>https://github.com/fuile/tree/maven-repo</url>
     <description>CmSen Springboot Common</description>
 
     <properties>
